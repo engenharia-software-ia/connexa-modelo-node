@@ -41,7 +41,9 @@ Use o Azure Boards como especificação. Não crie nem edite work items.
 
 Objetivo desta atividade: entregar uma melhoria vertical pequena, visível e
 verificável, sem ampliar o modelo-base. Mantenha-se estritamente no escopo e
-nas permissões da Task. Antes de editar, apresente um plano com os arquivos
+nas permissões da Task. Este modelo já possui o arquivo de teste de componente `frontend/src/features/sessao/SeletorDeEstudante.test.tsx`. `AGENTS.md` exige autorização explícita da pessoa supervisora para alterar testes existentes. Inclua esse arquivo no plano e peça autorização antes de adicionar casos; não remova nem enfraqueça testes existentes. Sem autorização explícita, não edite o arquivo e pare para ajustar a Task.
+
+Antes de editar, apresente um plano com os arquivos
 que pretende alterar/criar e um teste para cada cenário aplicável. Aguarde a
 aprovação explícita do grupo. Se a Task for ambígua, incompleta ou grande
 para uma mudança pequena, pare e explique o que falta.
