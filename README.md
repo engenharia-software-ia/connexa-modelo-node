@@ -238,7 +238,7 @@ O agente lê as Tasks do Azure Boards por MCP. As instruções que ele segue est
 | 1 | GitHub Copilot no VS Code | Remoto, com login da conta institucional | `.vscode/mcp.json` — conexões `ado-planejamento` (escrita) e `ado-leitura` (somente leitura) |
 | 2 | Codex no VS Code | Local, via `npx` (requer Node.js 20+) | `.codex/config.toml` |
 
-Os detalhes de cada caminho, os prompts de referência e o protocolo de falha estão no roteiro da Atividade de Sprint.
+A atividade guiada de até 120 minutos, com prompt, revisão e critérios de pronto, está no [guia de atividade com IA](docs/atividade-com-ia.md).
 
 ---
 
