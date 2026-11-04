@@ -113,7 +113,7 @@ cd frontend; npm install; npm run dev
 | Criar uma migração | `cd backend && npm run banco:nova-migracao -- <nome>` (ver `backend/prisma/LEIA-ME.md`) |
 | Apagar os dados e recomeçar o banco | `docker compose down -v && docker compose up -d db` |
 
-> **`./verificar` é o `<comando-de-verificacao>`** citado no roteiro da Atividade de Sprint e nas Tasks prontas para agente.
+> **`./verificar` é o `<comando-de-verificacao>`** usado nas Tasks prontas para agente e no [roteiro principal de sprint (120 min)](https://github.com/engenharia-software-ia/atividade-sprint-connexa/blob/main/Roteiro_Sprint1_120min.md).
 
 ---
 
@@ -244,7 +244,7 @@ A atividade guiada de até 120 minutos, com prompt, revisão e critérios de pro
 
 ## 9. Configuração depois de criar o repositório da equipe
 
-A Parte 1 do roteiro da Atividade de Sprint (Etapas 3 e 4) detalha estes passos. Os nomes entre `< >` são escolhidos pela equipe; só o projeto do Azure DevOps tem nome fixo: `Connexa`.
+A preparação descrita no [roteiro principal de sprint](https://github.com/engenharia-software-ia/atividade-sprint-connexa/blob/main/Roteiro_Sprint1_120min.md) deve estar pronta antes de iniciar a atividade. Esta seção descreve a configuração do repositório da equipe. Os nomes entre `< >` são escolhidos pela equipe; só o projeto do Azure DevOps tem nome fixo: `Connexa`.
 
 1. **Nome da organização do Azure DevOps:** substitua `<organizacao-azure-devops>` em `.vscode/mcp.json` e `.codex/config.toml`. A organização deve ter sido criada com a conta institucional (Microsoft Entra ID).
 2. **Proteção do `main`** (**Settings › Rules › Rulesets** ou **Settings › Branches**):
